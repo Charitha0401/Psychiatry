@@ -221,6 +221,11 @@
         </p>
     </div> 
     <script>
+        const circuits = [
+            { name: "Bipolar-I", url: "https://circuitverse.org/simulator/embed/bipolar-i" },
+            { name: "Schizophrenia", url: "https://circuitverse.org/simulator/embed/schizophrenia" },
+            { name: "Schizophreniform", url: "https://circuitverse.org/simulator/embed/schizophreniform-disorder" },
+        ];
         // Array of anxiety disorder circuit diagrams with names and URLs
         const disorderList = document.getElementById('disorder-list');
         const dialog = document.getElementById('circuit-diagram');
@@ -272,8 +277,6 @@ document.getElementById('fullscreen-button').addEventListener('click', function(
         iframe.msRequestFullscreen();
     }
 });
- 
     </script>
-    
 </body>
 </html>
